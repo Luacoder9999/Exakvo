@@ -1,5 +1,4 @@
-
-  local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("EXA | |Owner Norbert/Test666 hubs", "Sentinel")
 
 local Tab = Window:NewTab("CREDITS")
@@ -1411,7 +1410,5 @@ color.Saturation = 0.2
 color.TintColor = Color3.fromRGB(255,252,224)
     print("Clicked")
 end)
-  
-  local Window = OrionLib:MakeWindow({Name = "EXA V4", HidePremium = false, SaveConfig = true, ConfigFolder = "THCBB V4"})
-end
+ 
 
